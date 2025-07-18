@@ -81,7 +81,7 @@ climatex/
 
 ## **🎥 Demo**  
 
-[![CLIMATEX Demo Video](https://climatex-sand.vercel.app/)](https://youtu.be/example-link)  
+[![CLIMATEX Demo Video](./static/screen.png)](https://youtu.be/example-link)  
 *Click to watch a demo*  
 
 ---
