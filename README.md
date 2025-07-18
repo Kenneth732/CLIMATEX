@@ -1,6 +1,6 @@
 # **CLIMATEX - Ultra Premium Weather Dashboard**  
 
-![CLIMATEX Preview]("./static/screen.png) *[Replace with actual screenshot]*  
+![CLIMATEX Preview]<img src="./static/screen.png" /> *[Replace with actual screenshot]*  
 
 A **luxury, modern weather application** featuring **glass-morphism UI**, **dynamic gradients**, **real-time animations**, and **sleek dark/light mode**. Built for professionals who demand **both aesthetics and functionality**.  
 
