@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLIMATEX | Luxury Weather</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./static/css/styles.css">
+</head>
+<body>
+  <div class="app-container" id="appContainer">
+    <!-- Dynamic Background -->
+    <div class="weather-bg" id="weatherBg"></div>
+
+    <!-- Main App UI -->
+    <div class="glass-container">
+      <!-- Header -->
+      <header class="app-header">
+        <h1><i class="fas fa-cloud-sun"></i> CLIMATEX</h1>
+        <button class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </header>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <form id="weatherForm">
+          <input type="text" id="cityInput" placeholder="Search city..." autocomplete="off">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <div class="suggestions" id="suggestions"></div>
+      </div>
+
+      <!-- Current Weather -->
+      <div class="current-weather" id="weatherCard">
+        <div class="welcome-message">
+          <i class="fas fa-location-arrow"></i>
+          <h2>Global Weather Intelligence</h2>
+          <p>Enter a city to view real-time climate data</p>
+        </div>
+      </div>
+
+      <!-- Forecast -->
+      <div class="forecast-container" id="forecastContainer"></div>
+
+      <!-- Extra Weather Stats -->
+      <div class="weather-stats" id="weatherStats"></div>
+    </div>
+  </div>
+
+  <script src="./static/js/app.js"></script>
+</body>
+</html>
